@@ -3,10 +3,6 @@ var clone = require('clone')
 
 var BURN_OUTPUT = 0x1f
 
-var padLeadingZeros = function (hex, byteSize) {
-  return (hex.length === byteSize * 2) && hex || padLeadingZeros('0' + hex, byteSize)
-}
-
 module.exports = {
   // isBurn - is this payment as part of a burn transaction
   encode: function (paymentObject) {
