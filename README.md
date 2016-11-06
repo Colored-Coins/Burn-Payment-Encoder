@@ -16,7 +16,7 @@ $ npm install cc-burn-payment-encoder
 
 Params:
 
-- `paymentObject` - A standard Colored Coins payment object with the following properties:
+`paymentObject` - A standard Colored Coins payment object with the following properties:
 
 ```js
 {
@@ -106,7 +106,7 @@ console.log(paymentEncode.decode(consumer(codeBuffer)))
 In order to test you need to install [mocha] globaly on your machine
 
 ```sh
-$ cd /"module-path"/cc-burn-payment-Encoder
+$ cd /"module-path"/cc-burn-payment-encoder
 $ mocha
 ```
 
