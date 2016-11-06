@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 var paymentEncode = require(__dirname + '/../paymentEncoder')
 var assert = require('assert')
 
@@ -137,7 +138,7 @@ describe('Payment Decode Encode', function () {
       {skip: true, range: true, percent: true, amount: 1323004030000, burn: false}
     ]
 
-    for (var i = 0; i < testCases.length; i ++) {
+    for (var i = 0; i < testCases.length; i++) {
       assert.throws(function () {
         paymentEncode.encode(testCases[i])
       }, /Needs output value/
@@ -174,5 +175,4 @@ describe('Payment Decode Encode', function () {
     , 'Should Throw Error')
     done()
   })
-
 })

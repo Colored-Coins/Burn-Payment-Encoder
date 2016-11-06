@@ -1,7 +1,7 @@
 # Burn-Payment-Encoder
 [![Build Status](https://travis-ci.org/Colored-Coins/Burn-Payment-Encoder.svg?branch=COLU-948_burn)](https://travis-ci.org/Colored-Coins/Burn-Payment-Encoder) [![Coverage Status](https://coveralls.io/repos/Colored-Coins/Burn-Payment-Encoder/badge.svg?branch=COLU-948_burn)](https://coveralls.io/r/Colored-Coins/Burn-Payment-Encoder?branch=COLU-948_burn) [![npm version](https://badge.fury.io/js/cc-burn-payment-encoder.svg)](http://badge.fury.io/js/cc-burn-payment-encoder)  [![npm version](http://slack.coloredcoins.org/badge.svg)](http://slack.coloredcoins.org)
 
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/COLU-948_burn/badge.svg)](https://github.com/feross/standard)
+[![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 Payment-Encoder provides the encode/decode functions between a Colored Coins burn-transaction payment Object to buffer
 
