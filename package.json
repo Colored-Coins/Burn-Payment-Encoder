@@ -1,0 +1,26 @@
+{
+  "name": "cc-burn-payment-encoder",
+  "version": "1.0.0",
+  "description": "The encoding/decoding functions for the colored-coins burn payment object scheme",
+  "main": "paymentEncoder.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha -- -R spec",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "colored coins",
+    "bitcoin",
+    "blockchain"
+  ],
+  "author": "oleiba",
+  "license": "MIT",
+  "dependencies": {
+    "cc-payment-encoder": "^1.0.0",
+    "clone": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Colored-Coins/Burn-Payment-Encoder.git"
+  }
+}
